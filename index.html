@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kpankpanou Nimonka — Développeur Web</title>
+<meta name="description" content="Portfolio de Kpankpanou Nimonka, actuellement en Licence 3 GLSI à l’IAI-Togo.">
+<meta property="og:title" content="Kpankpanou Nimonka — Développeur Web">
+<meta property="og:description" content="Portfolio de Kpankpanou Nimonka, actuellement en Licence 3 GLSI à l’IAI-Togo.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="glow" id="glow"></div>
+<nav>
+  <a href="#top">Accueil</a><a href="#parcours">Parcours</a><a href="#projets">Projets</a><a href="#tech">Technologies</a>
+  <a class="cta" href="#contact">Me contacter</a>
+</nav>
+
+<section class="hero" id="top">
+  <div>
+    <div class="id">
+  <img class="avatar" src="assets/profil.jpeg" alt="Photo de Kpankpanou Nimonka" width="96" height="96">
+  <span class="badge mono">● Disponible pour un stage ou un premier poste</span>
+</div>
+    <h1>Kpankpanou<span>Nimonka</span></h1>
+    <p class="role"><span id="role">Développeur Web</span><span class="caret"></span></p>
+    <p class="lead">Étudiant en Licence 3 GLSI à l’IAI-Togo, je conçois des API et des applications robustes avec Python, Django, FastAPI et Java, avec un fort intérêt pour l’intelligence artificielle.</p>
+    <div class="btns"><a class="btn p" href="#projets">Voir mes projets</a><a class="btn" href="#contact">Me contacter</a><a class="btn cv" href="assets/cv.pdf" download="CV-Kpankpanou-Nimonka.pdf">Télécharger mon CV</a></div>
+    <div class="chips mono"><span class="chip">IAI-Togo</span><span class="chip">Licence 3 GLSI</span><span class="chip">Python</span><span class="chip">Django</span><span class="chip">Java</span><span class="chip">IA</span></div>
+  </div>
+  <div class="globe">
+    <div id="globe" aria-label="Globe 3D interactif"></div>
+    <div class="tag mono" style="bottom:4%;left:8%">Glisse pour faire tourner</div>
+  </div>
+</section>
+
+<section id="parcours">
+  <h2>Mon parcours</h2>
+  <p class="sub">Mes études, mon expérience et ce que je recherche.</p>
+  <div class="cards"><div class="tc"><div class="tc-h"><span class="ico">🎓</span><h3>Formation</h3></div><ul class="li2"><li><b>Licence GLSI</b> — Institut Africain d’Informatique (IAI-Togo)<small>2025 – aujourd’hui</small></li><li><b>Baccalauréat, série C4</b> — Lycée René Descartes des Savanes<small>2024</small></li></ul></div><div class="tc"><div class="tc-h"><span class="ico">💼</span><h3>Expérience</h3></div><ul class="li2"><li class="todo"><b>Stage — ADN (Académie Digitale Numérique)</b><small>22 Juin au 22 Juillet 2026 </small></li></ul></div><div class="tc"><div class="tc-h"><span class="ico">🎯</span><h3>Objectif</h3></div><p class="tp">Je recherche un stage stimulant pour appliquer et développer mes compétences en développement back-end, IA et gestion de projets.</p><div class="chips2"><span>Back-end</span><span>IA</span><span>Gestion de projets</span></div></div><div class="tc"><div class="tc-h"><span class="ico">🌍</span><h3>Langues</h3></div><div class="chips2"><span>Français</span><span>Anglais</span></div></div><div class="tc"><div class="tc-h"><span class="ico">⚡</span><h3>Centres d’intérêt</h3></div><div class="chips2"><span>Domotique</span><span>Électronique</span><span>Veille technologique</span></div></div></div>
+</section>
+
+<section id="projets">
+  <h2>Mes projets</h2>
+  <p class="sub">Trois projets réalisés. Clique sur « Tester maintenant » pour les essayer ici, ou sur « Voir sur le globe » pour voir où ils ont été réalisés.</p>
+  <div class="car" id="car"><div class="card" data-place="Lomé, Togo" data-lat="6.1656" data-lon="1.2545"><h3>AeroLink</h3><p class="place">📍 Réalisé à Lomé, Togo</p><p>API REST de gestion et de sécurité aéroportuaire : vols, capacités des avions, passagers, fret, météo et géolocalisation des aéroports.</p><div class="chips mono"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">MySQL</span><span class="chip">PostGIS</span></div><div class="cbtns"><button class="btn p sm" data-demo="aerolink" data-title="AeroLink" data-live="">Tester maintenant</button><button class="btn sm" data-i="0">📍 Voir sur le globe</button><a class="todo" href="https://github.com/KPANKPANOU-josue/AeroLink.git">Voir le code</a></div></div><div class="card" data-place="Lomé, Togo" data-lat="6.13" data-lon="1.22"><h3>Cancer Detection</h3><p class="place">📍 Réalisé à Lomé, Togo</p><p>Outil de prédiction santé par intelligence artificielle, pour favoriser la détection précoce des maladies.</p><div class="chips mono"><span class="chip">Python</span><span class="chip">IA / Data Science</span><span class="chip">Django</span><span class="chip">MySQL</span></div><div class="cbtns"><button class="btn p sm" data-demo="cancer" data-title="Cancer Detection" data-live="">Tester maintenant</button><button class="btn sm" data-i="1">📍 Voir sur le globe</button><a class="todo" href="https://github.com/KPANKPANOU-josue/cancerDetection.git">Voir le code</a></div></div><div class="card" data-place="Lomé, Togo" data-lat="6.14" data-lon="1.23"><h3>Gestion de Restauration</h3><p class="place">📍 Réalisé à Lomé, Togo</p><p>Système logiciel pour optimiser la gestion quotidienne d’un établissement de restauration.</p><div class="chips mono"><span class="chip">Java</span></div><div class="cbtns"><button class="btn p sm" data-demo="resto" data-title="Gestion de Restauration" data-live="">Tester maintenant</button><button class="btn sm" data-i="2">📍 Voir sur le globe</button><a class="todo" href="https://github.com/C4n4m1/Gestion_Restaurant.git">Voir le code</a></div></div></div>
+  <div class="ctl"><button id="prev" aria-label="Projet précédent">←</button><button id="next" aria-label="Projet suivant">→</button></div>
+</section>
+
+<section id="tech">
+  <h2>Technologies</h2>
+  <p class="sub">Les langages et les outils que j’utilise.</p>
+  <div class="cards"><div class="tc"><div class="tc-h"><span class="ico">💻</span><h3>Langages</h3></div><div class="chips2"><span>Python</span><span>Java</span><span>C#</span><span>C</span><span>HTML &amp; CSS</span></div></div><div class="tc"><div class="tc-h"><span class="ico">🧩</span><h3>Frameworks &amp; Librairies</h3></div><div class="chips2"><span>Django</span><span>FastAPI</span></div></div><div class="tc"><div class="tc-h"><span class="ico">🗄️</span><h3>Bases de données</h3></div><div class="chips2"><span>MySQL</span><span>MariaDB</span><span>PostGIS</span></div></div><div class="tc"><div class="tc-h"><span class="ico">🛠️</span><h3>Outils &amp; DevOps</h3></div><div class="chips2"><span>VS Code</span><span>PyCharm</span><span>Spyder</span><span>Git &amp; GitHub</span><span>Docker</span></div></div><div class="tc"><div class="tc-h"><span class="ico">🐧</span><h3>Systèmes</h3></div><div class="chips2"><span>Windows</span><span>EndeavourOS (Linux)</span></div></div><div class="tc"><div class="tc-h"><span class="ico">🤖</span><h3>IA &amp; Data Science</h3></div><div class="chips2"><span>Concepts IA</span><span>Prédiction</span><span>Data Science</span></div></div></div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="c-info">
+    <h2>Travaillons ensemble</h2>
+    <p class="sub">Un stage, un projet, une question : écris-moi par le formulaire ou directement par email, LinkedIn et GitHub.</p>
+    <div class="btns"><a class="btn p" href="mailto:josuekpankpanou@gmail.com">josuekpankpanou@gmail.com</a><a class="btn todo" href="https://www.linkedin.com/in/" target="_blank" rel="noopener">LinkedIn</a><a class="btn todo" href="https://github.com/" target="_blank" rel="noopener">GitHub</a></div>
+    <a class="btn cv" href="assets/cv.pdf" download="CV-Kpankpanou-Nimonka.pdf">Télécharger mon CV</a>
+  </div>
+  <form class="cform" id="cform" novalidate>
+    <h3>Envoie-moi un message</h3>
+    <div class="topics" role="radiogroup" aria-label="Sujet du message">
+      <label class="t" style="--c:#2ee6b6"><input type="radio" name="sujet" value="Stage" checked><span>Stage</span></label>
+      <label class="t" style="--c:#35c8ff"><input type="radio" name="sujet" value="Emploi"><span>Emploi</span></label>
+      <label class="t" style="--c:#a78bfa"><input type="radio" name="sujet" value="Projet"><span>Projet</span></label>
+      <label class="t" style="--c:#ffb02e"><input type="radio" name="sujet" value="Autre"><span>Autre</span></label>
+    </div>
+    <div class="f"><input id="fn" name="nom" placeholder=" " required autocomplete="name"><label for="fn">Ton nom</label></div>
+    <div class="f"><input id="fe" name="email" type="email" placeholder=" " required autocomplete="email"><label for="fe">Ton email</label></div>
+    <div class="f"><textarea id="fm" name="message" rows="5" placeholder=" " required maxlength="800"></textarea><label for="fm">Ton message</label><span class="cnt mono" id="cnt">0/800</span></div>
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+    <button class="send" type="submit">Envoyer le message</button>
+    <p class="status" id="status" role="status"></p>
+  </form>
+</section>
+
+<footer><p class="mono">© 2026 Kpankpanou Nimonka</p></footer>
+<dialog id="demo" aria-labelledby="dm-title"><div class="dm-h"><h3 id="dm-title"></h3><button id="dm-close" class="btn sm" aria-label="Fermer">✕</button></div><div id="dm-body"></div></dialog>
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/contact.js"></script>
+<script type="module" src="js/demos.js"></script>
+</body>
+</html>
